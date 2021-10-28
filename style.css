@@ -1,0 +1,20 @@
+h1{
+    font-family: monospace;
+}
+#Sobre {
+    font-size: 15px;
+    font-family: monospace;
+}
+
+body {
+    background-color:#DCE4c5;
+}
+
+.destaque{
+    font-style: italic;
+    color: rgb(43, 144, 226);
+}
+
+.destaquehabilidades {
+    font-size: 20px;
+}
