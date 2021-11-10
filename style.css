@@ -1,21 +1,69 @@
-h1{
-    font-family: monospace;
-}
-#Sobre {
-    font-size: 15px;
-    font-family: monospace;
-}
-
 body {
-    background-color:#DCE4c5;
+  background-color: rgb(253, 251, 251);
+  font-family: monospace;
+  line-height: 25px;
+  margin: 0;
 }
 
-.destaque{
-    font-style: italic;
-    color: rgb(43, 144, 226);
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(32, 177, 133);
+  font-family: monospace;
 }
 
-.destaquehabilidades {
-    font-size: 20px;
-    line-height: 30px
+nav {
+  position: fixed;
+  top: 50px;
+  left: 0;
+  display: inline;
+  width: 100%;
+  background-color: rgb(32, 177, 133);
+}
+
+footer {
+  background-color: rgb(32, 177, 133);
+  color: rgb(14, 6, 6);
+  padding: 10px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-links li {
+  margin-left: 17px;
+  display: inline;
+  padding: 5px;
+}
+
+.sobre {
+  width: 60%;
+  font-size: 15px;
+}
+
+div {
+  display: inline-block;
+}
+
+.lado-esquerdo {
+  width: 40%;
+  margin-left: 100px;
+}
+
+.lado-direito {
+  margin-left: 300px;
+  width: 20%;
+  padding-top: 75px;
+  top: 100px;
+}
+
+#minha_foto {
+  margin-top: 100px;
+  padding: 5px;
+  border: 1px;
+  background-color: rgb(2, 3, 3);
 }
